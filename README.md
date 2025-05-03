@@ -1,3 +1,7 @@
+# online compilers
+- c  https://www.programiz.com/c-programming/online-compiler/
+- c++ https://www.programiz.com/cpp-programming/online-compiler/
+- python https://www.programiz.com/python-programming/online-compiler/
 # git
 
 ## New laptop
