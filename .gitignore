@@ -1,0 +1,29 @@
+# C/C++
+*.o
+*.gch
+*.exe
+*.out
+*.d
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Python
+*.pyc
+*~
+__pycache__/
+*.egg-info
+dist/
+build/
+env/
+venv/
+*.log
+
+# General
+tmp/
+temp/
+*.swp
+._*
+.DS_Store
