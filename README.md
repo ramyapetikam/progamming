@@ -1,5 +1,18 @@
 # git
+
+## New laptop
+git config --global user.email "ramyapetikam@gmail.com"
+git config --global user.name "ramya"
+
+## For every new project
 git clone git@github.com:ramyapetikam/progamming.git
+cd progamming
+git status
+git add --all
+git status
+git commit -m "c, c++, python
+git push origin main
+git pull origin main
 
 
 # Linux commands
