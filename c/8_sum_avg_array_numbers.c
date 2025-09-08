@@ -1,19 +1,23 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 
 int main() {
-    int i,sum = 0,ar[10];
+    int n,sum = 0;
+    printf("enter n ");
+    scanf("%d",&n);
+    int ar[n];
     float avg;
-    for(int i = 0 ; i <10 ; i++)
+    for(int i = 0 ; i < n ; i++)
     {
-        printf("enter the number %d\n" , i+1);
+        printf("enter the number %d: " , i+1);
         scanf("%d",&ar[i]);
-        sum += ar[i];
-        avg = (float)sum/10;
+        sum = sum + ar[i];
+       
     }
+        avg = (float)sum/n;
     
     
-    printf("the sum of array elements i %d & avg is %f,sum,avg : ");
+    printf("the sum of array elements is %d & avg is %f",sum,avg  );
     
 
     return 0;
