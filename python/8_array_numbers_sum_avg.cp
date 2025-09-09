@@ -11,11 +11,9 @@ The average is: 5.8
 === Code Execution Successful ===
 
 n = int(input("Enter n: "))
-numbers = []
 total = 0
 for i in range(n):
     num = int(input(f"Enter number {i+1}: "))
-    numbers.append(num) 
     total += num          
 average = total / n
 print(f"The sum of {n} numbers is: {total}")
