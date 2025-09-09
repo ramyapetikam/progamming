@@ -1,4 +1,4 @@
-//code//
+/*
  enter n 4
  enter number 1:2
  enter number 2:6
@@ -7,8 +7,8 @@
 The sum of 4 numbers is: 17
 the average is: 4.25
 
-//code//
-=== Code Execution Successful ===
+*/
+
 #include <iostream>
 using namespace std;
 int main() {
