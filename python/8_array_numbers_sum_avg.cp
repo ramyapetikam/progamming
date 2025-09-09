@@ -1,4 +1,4 @@
-""""
+'''
 Enter n: 5
 Enter number 1: 3
 Enter number 2: 6
@@ -7,8 +7,8 @@ Enter number 4: 5
 Enter number 5: 8
 The sum of 5 numbers is: 29
 The average is: 5.8
+'''
 
-=== Code Execution Successful ===
 
 n = int(input("Enter n: "))
 total = 0
