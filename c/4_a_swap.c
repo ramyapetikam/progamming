@@ -1,3 +1,8 @@
+/*
+enter num1 5
+enter num2 4
+swapped values4,5
+*/
 #include<stdio.h>
 int main(){
     int num1,num2,temp;
