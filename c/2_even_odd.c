@@ -1,7 +1,11 @@
+/*
+enter number: 3
+3 is odd
+*/
 #include<stdio.h>
 int main(){
     int num;
-    printf("enter number ");
+    printf("enter number: ");
     scanf("%d",&num);
     if (num %2==0){
         printf("%d is even", num);
