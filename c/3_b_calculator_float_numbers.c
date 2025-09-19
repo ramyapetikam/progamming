@@ -1,3 +1,10 @@
+/*
+enter num1 3
+enter num2 5
+sum of 3.000000 and 5.000000 is 8.00
+sub of 3.000000 and 5.000000 is -2.00
+multiple of 3.000000 and 5.000000 is 15.00
+*/
 #include<stdio.h>
 int main(){
     float num1,num2,sum,sub,multiple,divide,remainder;
