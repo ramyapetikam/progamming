@@ -1,4 +1,7 @@
-// Online C compiler to run C program online
+/*
+enter n 7
+7,6,5,4,3,2,1,
+*/
 #include <stdio.h>
 
 int main() {
@@ -8,7 +11,6 @@ int main() {
    i=n;
    while(i>=1){
        printf("%d,",i);
-       i=i-1;
    }// Write C code here
     return 0;
 }
