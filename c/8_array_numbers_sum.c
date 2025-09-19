@@ -1,18 +1,18 @@
-// Online C compiler to run C program online
+/*
+enter the number of fibonacci numbers sequence:  6
+fibonacci series 0,1,1,2,3,5,
+*/
 #include <stdio.h>
-
 int main() {
-    int i,sum = 0,ar[5];
-    printf("enter array element : ");
-    for(i = 0 ; i < 5 ; i++)
-    {
-        scanf("%d",&ar[i]);
+    int n,first = 0, second = 1, next;
+    printf("enter the number of fibonacci numbers sequence:  ");
+    scanf("%d",&n);
+    printf("fibonacci series ");
+    for(int i = 0; i<n; i++) {
+        printf("%d,",first);
+        next = first + second;
+        first = second;
+        second = next;
     }
-        for(i = 0 ; i < 5 ; i++)
-        {
-        sum = sum + ar[i];
-        }
-    printf("sum of array element is :%d",sum);
-
     return 0;
 }
