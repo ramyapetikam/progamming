@@ -1,3 +1,12 @@
+/*
+enter num1 3
+enter num2 7
+sum of 3 and 7 is 10
+sub of 3 and 7 is -4
+multiple of 3 and 7 is 21
+divide of 3 and 7 is 0
+remainder of 3 and 7 is 3
+*/
 #include<stdio.h>
 int main(){
     int num1,num2,sum,sub,multiple,divide,remainder;
