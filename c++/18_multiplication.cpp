@@ -1,0 +1,33 @@
+/*
+enter a number to print its multipliction table: 4
+
+multiplication table of 4:
+4 x 0 = 0
+4 x 1 = 4
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
+4 x 7 = 28
+4 x 8 = 32
+4 x 9 = 36
+4 x 10 = 40
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "enter a number to print its multipliction table: ";
+    cin >> num;
+    
+    cout << "\nmultiplication table of "<< num << ":\n";
+    
+    for (int i = 0 ; i <= 10 ; i++){
+        cout << num << " x " << i << " = " << num * i << endl;
+        }
+    
+
+    return 0;
+}
