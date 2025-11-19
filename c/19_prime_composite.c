@@ -1,5 +1,5 @@
 /*
-enter a number: 2
+enter a number: 5
 prime
 */
 #include <stdio.h>
